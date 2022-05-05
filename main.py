@@ -1,8 +1,10 @@
 import random
 
-print(random.randint(0,333))
+def diceRoll():
+  return (random.randint(1,6))
 
-print(random.randint(0,333))
-for n in range(10):
-  print(random.randint(0,333))
-  
+player1 = diceRoll()
+player2 = diceRoll()
+
+print (f"Player 1 rolls a {player1}")
+print (f"player 2 rolls a {player2}")
